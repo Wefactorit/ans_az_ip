@@ -1,0 +1,16 @@
+---
+# defaults file for Ip
+
+# Project configuration
+project: name_porject
+env: int
+location_short: neu
+
+# Resources naming pattern
+resources_pattern: "{{ project }}-{{ env }}-{{ location_short }}"
+
+# Public IP configuration
+resource_group_name: rg_name
+public_ip_address_name: "{{ resources_pattern }}-publicip"
+public_ip_address_allocation_method: Dynamic
+public_ip_address_domain_name: "{{projet}}-{{env}}"

@@ -1,0 +1,8 @@
+galaxy_info:
+  author: saba berol
+  description: Student
+  company: Generali with Wefactorit
+  license: license GPL-3.0-only
+  min_ansible_version: 2.8
+  galaxy_tags: ['azure','cloud']
+dependencies: []
